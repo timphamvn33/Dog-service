@@ -1,0 +1,196 @@
+#title{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background: #ff4c68;
+ 
+   
+
+}
+
+
+.row{
+    margin:0;
+    
+}
+
+.container-fluid{
+    padding:0 20%;
+   
+
+}
+
+.icon{
+    font-size:3rem;
+    color:white;
+    text-decoration:none;
+}
+
+.row1{
+    margin: 3rem;
+}
+.col1{
+    text-align:center;
+}
+.color{
+    color:#F4411A;
+    font-size: 3rem;
+
+}
+.color:hover{
+    color: #F0174E ;
+}
+
+h4{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.img-fluid{
+   
+    
+    
+}
+
+.imgD{
+    position: relative;
+    
+    z-index: 1;
+}
+#feature{
+    
+    position: relative;
+    
+    z-index: 2;
+    padding: 10px;
+    background: #fff;
+    
+    
+}
+
+
+
+
+#testimonials{
+    background:  #ff4c68;
+    
+    
+}
+.col-sm p{
+    color: #D7DBDD;
+}
+.testimonial-text{
+    color:#fff;
+    text-align:center;
+    margin-top:3rem;
+
+
+}
+
+.img-container{
+    text-align:center;
+}
+
+.profile{
+    width:3rem;
+    height:3rem;
+    border-radius: 100%;
+
+}
+em{
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+#press{
+    background: #ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    text-align:center;
+    padding: 20%;
+}
+.price-title{
+    font-weight:bold;
+    font-size:4rem;
+}
+#press p{
+    font-size:1rem;
+
+}
+.dog-type{
+    font-weight:bold;
+    font-size: 2rem;
+}
+.price{
+    font-weight: bold;
+    font-size:3rem;
+}
+.col{
+    margin-bottom: 2rem;
+}
+
+.btn-primary{
+    background:black;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    
+
+}
+.btn-primary:hover{
+    background:#fff;
+    color: black;
+}
+#cta{
+    padding: 0% 20%;
+    text-align:center;
+    background: #ff4c68;
+    padding: 8rem;
+}
+.call-title{
+    color: #fff;
+    font-size:  3rem;
+    font-weight: bold;
+    
+}
+.btn1{
+    width:50%;
+    margin: 2rem 2rem;
+}
+#footer{ 
+    padding:0 20%;
+    text-align:center;
+
+
+}
+.social-contain{
+    margin: 1.5rem 1.5rem;
+}
+.fab{
+    margin: 0.5rem;
+}
+
+
+
+
+@media (max-width:680px){
+   
+    .imgD{
+        width:15rem;
+        height:15rem;
+    }
+   
+        
+    }
+    .feature{
+        position: static;
+       
+    }
+
+}
