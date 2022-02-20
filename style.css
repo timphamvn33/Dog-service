@@ -113,7 +113,7 @@ em{
 }
 #pricing{
     text-align:center;
-    padding: 20%;
+    padding: 5%;
 }
 .price-title{
     font-weight:bold;
@@ -176,21 +176,105 @@ em{
     margin: 0.5rem;
 }
 
+.card-body li{
+    list-style-type: none;
+}
+.card-body ul{
+    padding-left: 0;
+}
+.display-1 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 400;
+    line-height: 1.2;
+}
 
-
-
-@media (max-width:680px){
-   
+@media (max-width:780px){
+    .container-fluid {
+        padding: 0 10%;
+    }
+    
+   .call-title{  
+        font-size:  2rem;
+   }
+   #press img {
+    width: 25%;
+    margin: 10px 10px 30px;
+}
+   #cta {
+    
+    padding: 2rem;
+   }
     .imgD{
         width:15rem;
         height:15rem;
     }
+    .testimonial-text {
+        color: #fff;
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
    
         
-    }
+    
     .feature{
         position: static;
        
     }
+    .btn1 {
+        padding-top:0.25rem;
+        padding-bottom:0.25rem;
+        margin: 1rem 0.5rem;
+    }
+    .price-title {
+        font-size: 2rem;
+    }
+    #pricing {
+        text-align: center;
+        padding: 2%;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem 0.5rem;
+    }
+    .price {
+        
+        font-size: 1rem;
+    }
+    .card-body li p{
+        font-size: 0.75rem;
+        margin-bottom: 8px; 
+        
+    }
+    
+    .btn-primary {
+        background: black;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+    h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 4;
+    }
+    .fa-check-circle:before {
+        content: "\f058";
+        font-size: 1.5rem;
+    }
+    .fa-dot-circle:before {
+        content: "\f192";
+        font-size: 1.5rem;
+    }
+    .col1 {
+        text-align: center;
+        padding: 0;
+    }
+    .fa-heart:before {
+        content: "\f004";
+        font-size: 1.5rem;
+    }
+}
+    
 
 }
